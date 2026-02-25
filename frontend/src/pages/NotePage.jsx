@@ -94,7 +94,6 @@ const NotePage = () => {
                     Add
                 </button>
             </div>
-
             {note.map((item) => (
                 <Card
                     key={item._id}
