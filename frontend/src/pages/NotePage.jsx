@@ -25,7 +25,6 @@ const NotePage = () => {
         }
     };
 
-    // ================= ADD NOTE =================
     const handleAdd = async () => {
         const token = localStorage.getItem("accessToken");
 
