@@ -8,7 +8,6 @@ const NotePage = () => {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
 
-    // ================= GET ALL NOTES =================
     const getAll = async () => {
         const token = localStorage.getItem("accessToken");
         if (!token) return;
